@@ -1,0 +1,110 @@
+<html>
+
+<head>
+	
+</head>
+
+<body>
+
+	<style>
+		body{
+			background: #000;
+		}
+
+        .video {
+            color: #000;
+            margin-top: 3px;
+            text-align: center;
+            margin-left: auto;
+            align-items: center;
+        }
+
+
+        .bubbles h1{
+        font-family: arial;
+        align-items: center;
+        text-align: center;
+        font-family: 'Luckiest Guy', cursive;
+        margin-top: 10px;
+        color: #fff;
+        font-size: 45px;
+        }
+
+        .button{
+        	padding: 15px 45px;
+          font-size: 16px;
+          margin-left: 10px;
+          text-align: center;
+          cursor: pointer;
+          align-content: center;
+          color: #fff;
+          background-color: #000;
+          border-radius: 10px;
+          box-shadow: 0 2px #999;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .input1 {
+          padding: 14px 5px;
+          margin-left: 75px;
+          font-size: 17px;
+          text-align: center;
+          cursor: pointer;
+          align-content: center;
+          color: #fff;
+          background-color: #000;
+          border-radius: 10px;
+          box-shadow: 0 2px #999;
+        }
+
+          .input2 {
+          padding: 14px 5px;
+          margin-left: 100px;
+          font-size: 17px;
+          text-align: center;
+          cursor: pointer;
+          align-content: center;
+          color: #fff;
+          background-color: #000;
+          border-radius: 10px;
+          box-shadow: 0 2px #999;
+        }
+
+</style>
+	<BR>
+	<div class="bubbles">
+	<h1>iLearn</h1>
+	</div>
+	<br>
+    <div class="video">
+
+    	<!-- width="800" height="800"  -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UQKNdwiSNOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<!-- 		  <source src="BeYou.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video. -->
+		</video>
+
+
+    </div>
+    <br><br><br>
+    <center>
+    <form method="POST">
+            <input type="text" name="upload" class="input1" size="55" placeholder="Upload Video Link">
+            <button class="button" name="upload_btn" type="submit">Upload URL</button>
+
+
+    </form>
+<!--       <input name="text">
+      <input type="submit"> -->
+      <form method="POST"> 
+          <input type="text" name="search" class="input2" size="50" placeholder="Search from Voice">
+          <button class="button" name="search_btn" type="submit">Search with Sound</button>
+      </form>
+
+    <button class="button" name="play_btn" type="submit">Play The Part</button>
+    </center>
+
+
+</body>
+</html>
